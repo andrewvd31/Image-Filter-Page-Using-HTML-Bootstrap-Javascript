@@ -30,7 +30,7 @@ document.addEventListener('click',function(e){
             for (let filterData of filterImage){
             imageFilter += 
                 `
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <img class="w-100 h-75" src="Images/${filterData}">
                 </div>
                 `
